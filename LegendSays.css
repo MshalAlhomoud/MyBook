@@ -1,0 +1,95 @@
+body{
+			background-color: ghostwhite;
+			overflow-x: hidden;
+		}
+h1{
+	text-align: center;
+}
+
+		.heading{
+			background-color: tan;
+			position: absolute;
+			top: 0;
+			text-align: center;
+			width: 100%;
+
+		}
+
+		.heading h1{
+			font-size: 2em;
+		}
+		.heading span{
+			font-size: 16px;
+		}
+
+		.navbar{
+			position: absolute;
+			top: 140px;
+			background-color: wheat;
+			width: 100%;
+			text-align: center;
+		}
+		.navbar ul li{
+			padding:6px;
+			display: inline;
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: steelblue;
+			transition: 1s;
+		}
+		.navbar ul li a:hover{
+			padding: 5px 10px;
+			background-color: royalblue;
+			color: white;
+		}
+
+		.main-section{
+			width: 50%;
+			position: absolute;
+			top: 190px;
+			left: 25%;
+			background-color:darkkhaki;
+
+		}
+
+		.outsider{
+			color: firebrick;
+		}
+
+		.backtothepast{
+			color: forestgreen;
+		}
+
+		.backfromthepast{
+			color: olive;
+		}
+
+		.backtothefuture{
+			color: snow;
+		}
+
+		.futuring{
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+
+		.fixed{
+			position: fixed;
+			top: 50%;
+			left: 0;
+			background-color: dimgray;
+			color: white;
+			text-decoration: none;
+			padding: 10px 30px;
+		}
+
+		.readimg{
+			position: fixed;
+			top: 50%;
+			right: 0;
+			width: 400px;
+		}
+
+
