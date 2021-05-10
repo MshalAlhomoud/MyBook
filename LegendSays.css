@@ -2,6 +2,10 @@ body{
 			background-color: ghostwhite;
 			overflow-x: hidden;
 		}
+html{
+    scroll-behavior: smooth;
+}
+
 h1{
 	text-align: center;
 }
